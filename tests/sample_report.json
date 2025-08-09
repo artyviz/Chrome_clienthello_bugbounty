@@ -1,0 +1,57 @@
+{
+  "report": {
+    "ja3_string": "771,4865-4866-4867-49327,0-10-11-16-43-51-65281,29-23,0",
+    "ja3_md5": "33993c1cb4d068d3d4526860f77f729c",
+    "ja4_string": "h3|h2|http/1.1|29",
+    "alpn": [
+      "h3",
+      "h2",
+      "http/1.1"
+    ],
+    "ciphers": [
+      4865,
+      4866,
+      4867,
+      49327
+    ],
+    "extensions": [
+      0,
+      10,
+      11,
+      16,
+      43,
+      51,
+      65281
+    ],
+    "groups": [
+      29,
+      23
+    ],
+    "ec_point_formats": [
+      0
+    ],
+    "key_shares": [
+      29
+    ]
+  },
+  "diffs": {
+    "alpn_match": true,
+    "alpn_expected": [
+      "h3",
+      "h2",
+      "http/1.1"
+    ],
+    "ext_order_match": false,
+    "ext_expected": [
+      0,
+      11,
+      10,
+      35,
+      16,
+      23,
+      65281
+    ],
+    "ja3_match": false,
+    "ja3_expected": "d41d8cd98f00b204e9800998ecf8427e"
+  }
+}

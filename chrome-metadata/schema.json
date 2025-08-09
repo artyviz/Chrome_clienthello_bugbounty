@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Chrome ClientHello metadata schema",
+  "type": "object",
+  "properties": {
+    "tag": {
+      "type": "string"
+    },
+    "release_date": {
+      "type": "string",
+      "format": "date"
+    },
+    "alpn": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "extensions": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "ciphers": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "groups": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "ec_point_formats": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      }
+    },
+    "ja3_md5": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "tag",
+    "alpn",
+    "extensions"
+  ]
+}

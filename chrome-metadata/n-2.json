@@ -1,0 +1,31 @@
+{
+  "tag": "chrome-stable-n-2-sample",
+  "release_date": "2025-01-01",
+  "alpn": [
+    "h3",
+    "h2",
+    "http/1.1"
+  ],
+  "extensions": [
+    0,
+    11,
+    10,
+    35,
+    16,
+    23,
+    65281
+  ],
+  "ciphers": [
+    4865,
+    4866,
+    4867
+  ],
+  "groups": [
+    29,
+    23
+  ],
+  "ec_point_formats": [
+    0
+  ],
+  "ja3_md5": "d41d8cd98f00b204e9800998ecf8427e"
+}
